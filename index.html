@@ -7,6 +7,10 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
   <link rel="stylesheet" href="style.css">
 
@@ -17,16 +21,29 @@
 <body>
 
   <main>
-    <article class="NFT">
-      <h1 class="NFT-title-id">Equilibrium #3429</h1>
-      <div class="NFT-lore">Our Equilibrium collection promotes balance and calm.</div>
-      <div class="NFT-stats">
-        <span class="NFT-price">0.041 ETH</span>
-        <span class="NFT-endbid">3 days left</span>
+    <article class="NFT u-rounded-corners">
+      <div class="NFT-image"><img class="u-rounded-corners" src="./images/image-theta.png" alt="nft cube">
+        <div class="NFT-image-overlay u-rounded-corners"></div>
       </div>
-
-      <div class="NFT-author"><span class="NFT-author-image"></span>Creation of <span class="NFT-author-name">Jules
-          Wyvern</span></div>
+      <h1 class="NFT-title-id">Equilibrium #3429</h1>
+      <div class="NFT-lore u-thin-text">Our Equilibrium collection promotes balance and calm.</div>
+      <div class="NFT-stats">
+        <span class="NFT-price">
+          <img class="NFT-etherum-icon" src="./images/icon-ethereum.svg"></img>
+          <span class="NFT-etherums">0.041 ETH</span>
+        </span>
+        <span class="NFT-endbid">
+          <img src="./images/icon-clock.svg">
+          <span class="NFT-daysleft u-thin-text">3 days left</span>
+        </span>
+      </div>
+      <div class="Rule"></div>
+      <div class="NFT-author u-thin-text"><img class="NFT-author-image" src="./images/image-avatar.png"></img><span
+          class="NFT-author-text">
+          Creation
+          of <span class="NFT-author-name u-normal-text">Jules
+            Wyvern</span>
+        </span></div>
     </article>
   </main>
 
