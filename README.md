@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Front End Mentor Solution](https://www.frontendmentor.io/solutions/nft-preview-card-component-qSBD0ZwAje)
+- [Live Site](https://omiras.github.io/nft-preview-card-component-main/)
 
 ## My process
 
